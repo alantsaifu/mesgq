@@ -18,7 +18,7 @@ int main(int argc, char** argv)
     unsigned int iprio;
     if (argc!=2)
     {
-        printf("usage: ./ipc_posix_mq_send <message>\n");
+        printf("usage: ./ipcmq_send <message>\n");
         exit(0);
     }
     
