@@ -45,7 +45,6 @@ int main(int argc, char** argv)
         }
     }
 
-    //iprio = atoi(argv[3]);
     iprio = 1;
     
     mq_send(mqID, argv[1], strlen(argv[1]), iprio);
