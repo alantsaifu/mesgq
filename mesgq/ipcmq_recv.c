@@ -20,7 +20,7 @@ int main(int argc, char** argv)
     
     if (argc>1)
     {
-        printf("usage: ./ipc_posix_mq_recv\n");
+        printf("usage: ./ipcmq_recv\n");
         exit(0);
     }
     
