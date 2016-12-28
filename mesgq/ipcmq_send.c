@@ -31,7 +31,7 @@ int main(int argc, char** argv)
     
         mqID = mq_open(MY_MQ_NAME, O_WRONLY);
         if (mqID < 0){
-          printf("open message queue %s error[%s]\n", argv[optind], strerror(errno));
+          printf("open message queue %s error[%s]\n", MY_MQ_NAME, strerror(errno));
           return -1;
         }
         printf("open message queue succ, mqID = %d\n", mqID);
